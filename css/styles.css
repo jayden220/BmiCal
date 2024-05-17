@@ -1,0 +1,30 @@
+button{
+    margin-left: 200px;
+    
+}
+
+.container{
+    border: 3px solid red;
+    width: 500px;
+    padding:30px auto;
+    height: 500px;
+    margin-left: 500px;
+    background-color: cadetblue;
+}
+
+body{
+    background-image: linear-gradient(#090979,#00d4ff);
+}
+
+.weight-con{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.height-con{
+    margin-left: 100px;
+}
+
+.result-con{
+    margin-left: 130px;
+}

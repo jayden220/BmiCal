@@ -3,6 +3,7 @@ let cmInput = document.querySelector('.height');
 let answerInput = document.querySelector('.result'); // Changed from display to input
 let calculateButton = document.querySelector('button');
 
+
 calculateButton.addEventListener('click', calculateBmi);
 
 function calculateBmi(){
@@ -19,6 +20,7 @@ function calculateBmi(){
     let bmi = kg / (meters * meters);
     
     answerInput.value = bmi.toFixed(2) + " (" + statusBmi(bmi) + ")";
+    
 }
 
 function statusBmi(bmi){

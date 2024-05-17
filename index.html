@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>BMI Calculator</title>
     <style>
     
@@ -10,19 +11,27 @@
 </head>
 <body>
     <h1>BMI Calculator</h1>
-    <div>
+    <div class="container">
+        <div class="weight-con">
         <label for="weight">Weight (kg)</label>
         <input type="number" class="weight" id="weight">
-    </div>
-    <div>
+        </div>
+                     <br><br><br><br>
+         <div class="height-con">
         <label for="height">Height (cm)</label>
         <input type="number" class="height" id="height">
-    </div>
-    <button>Calculate BMI</button>
-    <div>
+         </div>
+                         <br><br>
+             <button>Calculate BMI</button>
+            <br><br><br><br><br>
+         <div class="result-con">
         <label for="result">BMI:</label>
         <input type="text" class="result" id="result">
-    </div>
+        <br><br><br><br>
+        
+        </div>
+
+</div>
 
     <script src="./script/script.js"></script>
         
